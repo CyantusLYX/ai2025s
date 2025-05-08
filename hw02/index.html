@@ -24,12 +24,12 @@
     src: url(https://circle472.github.io/ct2022s/hw04/CircleFont_v2.woff2); 
   }
   @font-face {
-    font-family:'t113378043';
-    src: url(https://Garvin2009.github.io/ai2025s/hw02/113378043big5.woff2);
+    font-family:'lyx112590023';
+    src: url(https://Garvin2009.github.io/ai2025s/hw02/Font_112590023.woff2);
     }
   @font-face {
-    font-family:'113378043noto';
-    src: url(https://Garvin2009.github.io/ai2025s/hw02/113378043noto.woff2);
+    font-family:'lyx112590023';
+    src: url(https://Garvin2009.github.io/ai2025s/hw02/hw02/Font_112590023.woff2);
     }
   table {
       border-collapse: collapse;
@@ -168,22 +168,23 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      這次作業的流程沒有作業一那麼長，但是要花的時間比作業二久一點，但大部分時間是在訓練手寫字體的部分，所以比上一個作業輕鬆，上一個作業要手寫上千個文字非常的累人，但每天寫一點的話不算太累，作業二的strong base line要花一點時間去找到思源黑體的全文字，。
+      把zi2zi跟font diffuser都跑過了，以我個人的情況來說font diffuser效果比zi2zi好不少，我對zi2zi做了點修改讓它可以在20系以後的GPU訓練，我是用4060跑的，大概和實驗室的2080ti差不多速度，font diffuser為了發揮colab pro a100的性能對推理的程式加入平行處理和混和精度的功能(不過實際的程式都是叫claude寫的就是了) 可以在三小時左右把noto的兩萬多字推理完，據同學測試的結果對免費方案的GPU有一點提升但不多。
+      <br><br>
+      <strong>GitHub Repo:</strong><br>
+      <a href="https://github.com/CyantusLYX/zi2zi_self_attention_cuda12_py38" target="_blank">
+        zi2zi_self_attention_cuda12_py38
+      </a>
+      <br>
+      <a href="https://github.com/CyantusLYX/Fontdiffuser" target="_blank">
+        Fontdiffuser
+      </a>
     </div>
   </div>
   <!-- ------------------------------------------------>
   <div class="row hw12">
       <div class="col-md-12 twenty">
-        big5字體包位置連結：授權至SIL開源字型
-        <input type="button" name="back" onclick="location.href='https://github.com/Garvin2009/ai2025s/blob/main/hw02/113378043big5.ttf'" value="按我 ٩(｡・ω・｡)و 前往">
-        (p.s 請記得修改網址)
-      </div>
-  </div>
-  <div class="row hw12">
-      <div class="col-md-12 twenty">
         noto字體包位置連結：授權至SIL開源字型
-        <input type="button" name="back" onclick="location.href='https://github.com/Garvin2009/ai2025s/blob/main/hw02/113378043noto.ttf'" value="按我 ٩(｡・ω・｡)و 前往">
-        (p.s 請記得修改網址)
+        <input type="button" name="back" onclick="location.href='https://github.com/Garvin2009/ai2025s/blob/main/hw02/112590023.ttf'" value="按我 ٩(｡・ω・｡)و 前往">
       </div>
   </div>
   <!-- ------------------------------------------------>
