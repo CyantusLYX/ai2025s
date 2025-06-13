@@ -187,19 +187,19 @@ capacity to store patterns learned during training.  All this data flows
 
 repeatedly through many iterations of these two fundamental operations.  The
 
-idea is that each list of numbers is enriched to encode the necessary
+idea is that each list of numbers enriches itself to encode the necessary
 
 information for a precise prediction of what word follows in the text.  In the
 
 end, to make a prediction of the next word, a final function is performed on the
 
-last vector of the sequence that already accumulates the
+last vector of the sequence that already accumulates
 
 
 ========== The 12-th segment of the split (509 words) ==========
 
 
-influence of the context of the entry phrase and everything that the model
+the influence of the context of the entry phrase and everything that the model
 
 learned during training.  Again, the prediction of the model is the assignment
 
@@ -211,13 +211,13 @@ an emerging and spontaneous phenomenon that depends on the parameters set during
 
 training.  This makes it incredibly difficult to determine why the model makes a
 
-particular prediction.  What you
+particular prediction.  What
 
 
-========== The 13-th segment of the split (509 words) ==========
+========== The 13-th segment of the split (505 words) ==========
 
 
-can notice when you use language model predictions is that the words it
+you can notice when you use language model predictions is that the words it
 
 generates are amazingly fluid, fascinating and even useful.  The model is a very
 
@@ -229,28 +229,28 @@ study.  It is a model that is very interesting and interesting to study.  It is
 
 a model that is very interesting and interesting to study.  If you are new here
 
-and are curious to know more details
+and are curious to know more
 
 
-========== The 14-th segment of the split (512 words) ==========
+========== The 14-th segment of the split (510 words) ==========
 
 
-about how transformers and attention work, I have a lot of material for you.  An
+details about how transformers and attention work, I have a lot of material for
 
-option is to visit a series of videos about deep learning, where we visualize
+you.  An option is to visit a series of videos about deep learning, where we
 
-the details of attention and the other processes in a transformer.  In addition,
+visualize the details of attention and the other processes in a transformer.  In
 
-on my second channel I published a talk that I gave on this topic for the TNG
+addition, on my second channel I published a talk that I gave on this topic for
 
-company in Munich.  In reality, sometimes I prefer to give an informal talk
+the TNG company in Munich.  In reality, sometimes I prefer to give an informal
 
-instead of making a video production, but I leave to your choice which of them
+talk instead of making a video production, but I leave to your choice which of
 
-you think is best to continue learning.
-
-
-========== The 15-th segment of the split (23 words) ==========
+them you think is best to continue
 
 
-Thank you for watching.
+========== The 15-th segment of the split (34 words) ==========
+
+
+learning.  Thank you for watching.
